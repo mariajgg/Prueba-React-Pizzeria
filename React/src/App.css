@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.texto {
+  color: white;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+  flex-direction: column;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  margin-top: 4em;
+}
+
+.formulario-registro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.pizza-character {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  font-family: "Lilita One", serif;
+  font-weight: 400;
+  font-size: 6rem !important;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-family: "Lilita One", serif;
+}
+
+.bg-beige {
+  background-color: bisque;
+}
+
+.active .btn {
+  color: green;
+}
